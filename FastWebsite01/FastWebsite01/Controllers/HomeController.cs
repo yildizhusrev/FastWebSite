@@ -26,5 +26,12 @@ namespace FastWebsite01.Controllers
 
             return View();
         }
+
+        public ActionResult Contact2()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
